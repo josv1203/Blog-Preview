@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* Se agrega el background y se centra el contenido de la pagina. */
+body {
+
+    height: 100vh;
+
+    background: hsl(47, 88%, 63%);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: Figtree;
+}
+
+/* Se establecen las dimensiones de la card, se le coloca el color de fondo, los bordes redondeados y los border. */
+main {
+
+    background: #fff;
+
+    width: 24.0625rem;
+    height: 32.8125rem;
+
+    padding: 1.375rem;
+
+    border-radius: 1.25rem;
+
+    border: #000 solid .0625rem;
+    box-shadow: .5rem .5rem #000;
+}
+
+/* Se agregan los bordes redondeados y el margin a la imagen del articulo */
+article>img {
+
+    border-radius: .5rem;
+
+    margin-bottom: 1.375rem;
+
+    width: 21.0625rem;
+    height: 12.625rem;
+}
+
+/* Se le asigna el width y el height al boton de "Learning". Se le agregan el color de fondo, se centra el texto y se establece el tamaño de la fuente.  */
+.article-bottom {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 5.25rem;
+    height: 2rem;
+
+    margin-bottom: .9375rem;
+
+    border-radius: .3125rem;
+
+    background: #f5d147;
+
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Se configura la fuente a la información de pulished. */
+.article-infoPulished {
+    font-size: .875rem;
+}
+
+/* Se le agrega un margin-top a la información del articulo. */
+.article-info {
+    margin-top: 1.25rem;
+}
+
+
+/* Se modifica la fuente del titulo de la información y tambien se le agrega un Hover. */
+.article-info>h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+
+    margin-bottom: 1.25rem;
+}
+
+.article-info>h1:hover {
+    color: #e7c94d;
+    cursor: pointer;
+}
+
+
+/* Se le agregan los estilos a la fuente del texto la información. */
+.article-info>p {
+
+    font-size: .875rem;
+    line-height: 1.25rem;
+
+    color: #7e7e7e;
+}
+
+/* Se agrega un margin top al footer. */
+footer {
+
+    margin-top: 1.25rem;
+
+}
+
+/* Se modifica el Div que se encuentra dentro del footer para poder organizar el contenido que se encuentra dentro de él. */
+footer>div {
+
+    display: flex;
+
+    align-items: center;
+    gap: .625rem;
+
+    font-size: .875rem;
+    font-weight: 600;
+
+}
+
+/* Se ajusta el tamaño de la imagen. */
+footer>div>img {
+
+    width: 2.125rem;
+    height: 2.125rem;
+
+}
+
+
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+}
