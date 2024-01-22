@@ -6,6 +6,7 @@
 }
 
 
+
 /* Se agrega el background y se centra el contenido de la pagina. */
 body {
 
@@ -27,7 +28,7 @@ main {
     background: #fff;
 
     width: 24.0625rem;
-    height: 32.8125rem;
+    /* height: 32.8125rem; */
 
     padding: 1.375rem;
 
@@ -66,12 +67,12 @@ article>img {
     background: #f5d147;
 
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 /* Se configura la fuente a la información de pulished. */
 .article-infoPulished {
-    font-size: .875rem;
+    font-size: 1rem;
 }
 
 /* Se le agrega un margin-top a la información del articulo. */
@@ -97,8 +98,9 @@ article>img {
 /* Se le agregan los estilos a la fuente del texto la información. */
 .article-info>p {
 
-    font-size: .875rem;
-    line-height: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
 
     color: #7e7e7e;
 }
@@ -136,4 +138,5 @@ footer>div>img {
     html {
         font-size: 14px;
     }
+
 }
