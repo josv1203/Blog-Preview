@@ -39,7 +39,7 @@ main {
 }
 
 /* Se agregan los bordes redondeados y el margin a la imagen del articulo */
-article>img {
+main>img {
 
     border-radius: .5rem;
 
@@ -50,7 +50,7 @@ article>img {
 }
 
 /* Se le asigna el width y el height al boton de "Learning". Se le agregan el color de fondo, se centra el texto y se establece el tamaño de la fuente.  */
-.article-bottom {
+.bottom {
 
     display: flex;
 
@@ -71,32 +71,32 @@ article>img {
 }
 
 /* Se configura la fuente a la información de pulished. */
-.article-infoPulished {
+.infoPulished {
     font-size: 1rem;
 }
 
 /* Se le agrega un margin-top a la información del articulo. */
-.article-info {
+.info {
     margin-top: 1.25rem;
 }
 
 
 /* Se modifica la fuente del titulo de la información y tambien se le agrega un Hover. */
-.article-info>h1 {
+.info>h1 {
     font-size: 1.5rem;
     font-weight: 800;
 
     margin-bottom: 1.25rem;
 }
 
-.article-info>h1:hover {
+.info>h1:hover {
     color: #e7c94d;
     cursor: pointer;
 }
 
 
 /* Se le agregan los estilos a la fuente del texto la información. */
-.article-info>p {
+.info>p {
 
     font-size: 1rem;
     line-height: 1.5rem;
